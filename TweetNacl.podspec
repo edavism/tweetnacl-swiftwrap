@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "TweetNacl"
+  s.name         = "TweetNaclEDM"
   s.version      = "1.1.1"
   s.summary      = "TweetNacl wrapper library written in Swift."
   s.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/bitmark-inc/tweetnacl-swiftwrap.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/edavism/tweetnacl-swiftwrap.git", :tag => s.version }
   s.source_files  = "Sources/**/*.{h,c,swift}"
   s.private_header_files = 'Sources/CTweetNacl/include/*.h'
   s.preserve_paths = 'Sources/module.map'
